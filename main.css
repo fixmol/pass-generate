@@ -1,0 +1,71 @@
+
+* {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: rgb(51, 51, 51);
+}
+
+.container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.block {
+    background: rgb(224, 224, 224);
+    padding: 2rem;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.textinfo {
+    margin-top: 0px;
+    opacity: .5;
+}
+
+.btn {
+    background-color: rgb(27, 175, 114);
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: 1px solid rgb(68, 68, 68);
+    transition: all 0.22s;
+    letter-spacing: 0.05em;
+}
+
+.btn:hover {
+    background-color: rgba(27, 175, 113, 0.5);
+}
+
+.btn:disabled {
+    background-color: rgb(119, 119, 119);
+}
+
+.btn:active {
+    background-color: rgb(107, 107, 107);
+}
+
+.passInput {
+    width: 450px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.strLength {
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.strLength:focus {
+    border-color: rgb(0, 145, 19);
+    outline: none;
+}
+
